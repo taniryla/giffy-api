@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.gifDiv {
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gifImage {
+  height: 300px;
+  margin: 50px;
+  max-width: 300px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  max-width: 900px !important;
+  overflow: none;
+}
